@@ -15,27 +15,27 @@ import {
 	User,
 	AtSign,
 } from "lucide-react";
+import { David, Jonathan } from "./assets";
 
 function App() {
 	const team = [
 		{
 			name: "Luisa",
 			role: "Coordinadora de proyetos y relaciones comerciales",
-			image:
-				"",
+			image: "",
 			description:
 				"Experta en el sector Agricola y Tecnologías de la Información",
 		},
 		{
 			name: "Jonathan Cruz",
 			role: "Desarrollador de software especializado en soluciones para el sector agricola",
-			image: "./jonathan.jpg",
+			image: Jonathan,
 			description: "Especialista en desarrollador full stack",
 		},
 		{
 			name: "David Crux",
 			role: "Diseñador y especialista en experiencia de usuario UI/UX",
-			image: "./David.jpg",
+			image: David,
 			description: "Disenador de interfaces de usuario",
 		},
 	];

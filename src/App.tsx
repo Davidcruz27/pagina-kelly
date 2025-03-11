@@ -1,71 +1,96 @@
-import React from 'react';
-import { Mail, Phone, MapPin, Tractor, Plane as Plant, Users, Brain, Send, Target, Eye, Heart, MessageSquare, User, AtSign } from 'lucide-react';
+import React from "react";
+import {
+	Mail,
+	Phone,
+	MapPin,
+	Tractor,
+	Plane as Plant,
+	Users,
+	Brain,
+	Send,
+	Target,
+	Eye,
+	Heart,
+	MessageSquare,
+	User,
+	AtSign,
+} from "lucide-react";
 
 function App() {
-  const team = [
-    {
-      name: "Luisa",
-      role: "Coordinadora de proyetos y relaciones comerciales",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300&h=300",
-      description: "Experta en el sector Agricola y Tecnologías de la Información"
-    },
-    {
-      name: "Jonathan Cruz",
-      role: "Desarrollador de software especializado en soluciones para el sector agricola",
-      image: "public/jonathan.jpg",
-      description: "Especialista en desarrollador full stack"
-    },
-    {
-      name: "David Crux",
-      role: "Diseñador y especialista en experiencia de usuario UI/UX",
-      image: "/public/david.jpg",
-      description: "Disenador de interfaces de usuario"
-    }
-  ];
+	const team = [
+		{
+			name: "Luisa",
+			role: "Coordinadora de proyetos y relaciones comerciales",
+			image:
+				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300&h=300",
+			description:
+				"Experta en el sector Agricola y Tecnologías de la Información",
+		},
+		{
+			name: "Jonathan Cruz",
+			role: "Desarrollador de software especializado en soluciones para el sector agricola",
+			image: "/jonathan.jpg",
+			description: "Especialista en desarrollador full stack",
+		},
+		{
+			name: "David Crux",
+			role: "Diseñador y especialista en experiencia de usuario UI/UX",
+			image: "/David.jpg",
+			description: "Disenador de interfaces de usuario",
+		},
+	];
 
-  const projects = [
-    {
-      title: "SmartIrrigation",
-      description: "Sistema inteligente de riego basado en sensores IoT",
-      image: "https://images.unsplash.com/photo-1463123081488-789f998ac9c4?auto=format&fit=crop&q=80&w=500"
-    },
-    {
-      title: "CropMonitor",
-      description: "Monitoreo de cultivos mediante drones y análisis de datos",
-      image: "https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?auto=format&fit=crop&q=80&w=500"
-    },
-    {
-      title: "FarmTrack",
-      description: "Plataforma de gestión integral para explotaciones agrícolas",
-      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=500"
-    }
-  ];
+	const projects = [
+		{
+			title: "SmartIrrigation",
+			description: "Sistema inteligente de riego basado en sensores IoT",
+			image:
+				"https://images.unsplash.com/photo-1463123081488-789f998ac9c4?auto=format&fit=crop&q=80&w=500",
+		},
+		{
+			title: "CropMonitor",
+			description: "Monitoreo de cultivos mediante drones y análisis de datos",
+			image:
+				"https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?auto=format&fit=crop&q=80&w=500",
+		},
+		{
+			title: "FarmTrack",
+			description:
+				"Plataforma de gestión integral para explotaciones agrícolas",
+			image:
+				"https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=500",
+		},
+	];
 
-  const values = [
-    {
-      title: "Innovación",
-      description: "Apostamos por soluciones tecnologicas de vanguardia que se adapten a las necesidaddes del sector agricola."
-    },
-    {
-      title: "Sostenibilidad",
-      description: "Promovemos el crecimiento agricola responsable y respetuoso con el medio ambiente."
-    },
-    {
-      title: "Colaboración",
-      description: "Creemos en el trabajo conjunto con el sector agrario para desarrollar soluciones efectivas y de alto impacto."
-    },
-    {
-      title: "Excelencia",
-      description: "Entregamos productos confiables y eficientes para constribuir al desarrollo tecnologico del campo."
-    }
-  ];
+	const values = [
+		{
+			title: "Innovación",
+			description:
+				"Apostamos por soluciones tecnologicas de vanguardia que se adapten a las necesidaddes del sector agricola.",
+		},
+		{
+			title: "Sostenibilidad",
+			description:
+				"Promovemos el crecimiento agricola responsable y respetuoso con el medio ambiente.",
+		},
+		{
+			title: "Colaboración",
+			description:
+				"Creemos en el trabajo conjunto con el sector agrario para desarrollar soluciones efectivas y de alto impacto.",
+		},
+		{
+			title: "Excelencia",
+			description:
+				"Entregamos productos confiables y eficientes para constribuir al desarrollo tecnologico del campo.",
+		},
+	];
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Aquí iría la lógica del formulario
-  };
+	const handleSubmit = (e: React.FormEvent) => {
+		e.preventDefault();
+		// Aquí iría la lógica del formulario
+	};
 
-  return (
+	return (
 		<div className="min-h-screen bg-white">
 			{/* Hero Section */}
 			<header

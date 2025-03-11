@@ -22,20 +22,20 @@ function App() {
 			name: "Luisa",
 			role: "Coordinadora de proyetos y relaciones comerciales",
 			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300&h=300",
+				"",
 			description:
 				"Experta en el sector Agricola y Tecnologías de la Información",
 		},
 		{
 			name: "Jonathan Cruz",
 			role: "Desarrollador de software especializado en soluciones para el sector agricola",
-			image: "/jonathan.jpg",
+			image: "./jonathan.jpg",
 			description: "Especialista en desarrollador full stack",
 		},
 		{
 			name: "David Crux",
 			role: "Diseñador y especialista en experiencia de usuario UI/UX",
-			image: "/David.jpg",
+			image: "./David.jpg",
 			description: "Disenador de interfaces de usuario",
 		},
 	];
